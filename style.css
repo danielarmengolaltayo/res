@@ -1,0 +1,49 @@
+body{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	background: #EFEFEF;
+	/* mssg centered */
+	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+	min-height: 100vh; /* These two lines are counted as one :-)       */
+	display: flex;
+	align-items: center;
+}
+
+#mssg1{
+	font-size: 6rem;
+	font-weight: 700;
+	line-height: 6rem;
+}
+
+#mssg2{
+	font-weight: 400;
+	font-size: 1.6rem;
+	color: rgba(0,0,0,0.5);
+	line-height: 2rem;
+}
+
+#mssg3{
+	font-weight: 400;
+	font-size: 1.2rem;
+	color: rgba(0,0,0,0.5);
+	line-height: 1.7rem;
+	text-align: left;
+}
+
+#mssg2 strong, #mssg3 strong{
+	font-weight: 700;
+	color: black;
+}
+
+.footer{
+	font-weight: 400;
+	font-size: 0.8rem;
+	color: rgba(0,0,0,0.5);
+	padding-top: 40px;	
+}
+
+.container{
+	padding-right: 50px;
+	padding-left: 50px;
+}
